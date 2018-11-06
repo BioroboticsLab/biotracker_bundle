@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.12)
+
+project(biotracker_bundle)
+
+add_subdirectory(behavior_loader)
+add_subdirectory(biotracker_interfaces)
+add_subdirectory(biotracker_utility)
+add_subdirectory(biotracker_core)
+add_subdirectory(biotracker_lucasKanade)
+add_subdirectory(biotracker_backgroundsubtraction_tracker)
